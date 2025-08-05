@@ -69,12 +69,13 @@ input,
 select {
   font-family: inherit;
   color: inherit;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding: 0.7rem;
   text-align: center;
   border: 1px solid var(--color-light);
   border-radius: 4px;
   transition: 0.3s;
+  background: #fafafa;
 }
 
 input:focus,
@@ -174,6 +175,7 @@ form {
 
 label {
   font-weight: 500;
+  font-size: 1.4rem;
 }
 
 label::first-letter {
